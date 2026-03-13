@@ -1,11 +1,11 @@
 1.	HSC4D human gait style classifier
 This repo contains a pipeline to:
-•	extract 5 interpretable kinematic features from the HSC4D dataset
+- extract 5 interpretable kinematic features from the HSC4D dataset
 •	create weak style labels (fast/slow/dragging/sharp_turn) using train-only thresholds
 •	train and evaluate a RF using LOSO
 •	export results to CSV files
 
-2.	Dataset The HSC4D dataset is not included in this repository and must be downloaded.
+3.	Dataset The HSC4D dataset is not included in this repository and must be downloaded.
 Download it from: Main site: http://www.lidarhumanmotion.net/data-hsc4d/
 Google Drive folder: https://drive.google.com/drive/folders/1c6iGtqcAhPmzSsoep-WB-g_kJQjMZl-t
 Download and extract these folders:
@@ -13,7 +13,7 @@ Download and extract these folders:
 •	climbing_gym
 •	lab_building
 
-3.	Folder location This code expects the extracted dataset folders to be in one of these locations:
+4.	Folder location This code expects the extracted dataset folders to be in one of these locations:
 Option 1 (recommended):
 •	Downloads/campus_road/
 •	Downloads/climbing_gym/
